@@ -1,0 +1,103 @@
+.register{
+    width: 100%;
+    height: 100vh;
+    background: url('https://static1.squarespace.com/static/58fbfecf725e25a3d1966494/5f5fcc4650df4722058d996a/6063cb4d863da679a5d3fdd8/1619465490328/?format=1500w');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.register .contain{
+    margin-top: 50px;
+    margin-left: 520px;
+    width: 450px;
+    height: 550px;
+    background: transparent;
+    box-shadow: 0px 0px 8px white;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+}
+.register .contain .title{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.register .contain form{
+    width: 100%;
+    height: 250px;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 15px;
+}
+.register .contain form input[type="email"],
+.register .contain form input[type="text"],
+.register .contain form input[type="number"],
+.register .contain form input[type="password"]{
+    width: 100%;
+    outline: none;
+    border: none;
+    transition: all ease 0.4s;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 10px;
+}
+.register .contain form select{
+    width: 100%;
+    outline: none;
+    border: none;
+    transition: all ease 0.4s;
+    background: transparent;
+    color: gray;
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 10px;
+}
+.register .contain form input[type="submit"]{
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: white;
+    color: black;
+    font-weight: bold;
+    letter-spacing:3px;
+    font-size: 16px;
+}
+.register .contain form input[type="submit"]:hover{
+    color: white;
+    background: gray;
+    transition: all ease 0.4s;
+}
+.register .contain form .click{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register .contain form .click a{
+    text-decoration: none;
+    color: white;
+}
+.register .contain form .click a:hover{
+    color: gray;
+}

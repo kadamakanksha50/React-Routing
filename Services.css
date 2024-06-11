@@ -1,0 +1,36 @@
+.service-container{
+    width: 100%;
+    height: 100vh;
+    top: 12%;
+    position: absolute;
+}
+.service-container h1{
+    text-align: center;
+    color: darkcyan;
+}
+.service-container .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.service-container .content .card1{
+    width: 400px;
+    height: 440px;
+    background: darkcyan;
+    border-radius: 10px;
+    margin: 10px;
+    transition: ease-in 0.4s;
+}
+.service-container .content .card1:hover{
+    transform: rotate(5deg);
+}
+.service-container .content .card1 img{
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+}
+.service-container .content .card1 p{
+    padding: 10px;
+    color: white;
+}

@@ -1,0 +1,35 @@
+.about-container{
+    width: 100%;
+    height: 100vh;
+    top: 12%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-container .content1{
+    width: 100%;
+    height: 750px;
+}
+.about-container .content1 h1{
+    text-align: center;
+    color: darkcyan;
+}
+.about-container .content1 .row{
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    height: 350px;
+}
+.about-container .content1 .row img{
+    width: 90%;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.about-container .content1 .row img:hover{
+    transform: rotate(2deg);
+}
+.about-container .content1 .row p{
+    padding: 10px;
+    font-style: italic;
+}
